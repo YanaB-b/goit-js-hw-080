@@ -11,7 +11,7 @@ const KEY = 'videoplayer-current-time';
 videoTimer();
 
 const setPlayer = throttle(function(iframe){
-    localStorage.setPlayer(KEY,`${iframe.seconds}` );
+    localStorage.setPlayer(KEY, `${iframe.seconds}` );
 },1000);
 
 
